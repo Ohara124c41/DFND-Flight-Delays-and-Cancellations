@@ -3,7 +3,9 @@ ___
 
 
 ##### Scholar: Christopher Ohara
-##### Program: Udacity Data Foundations Nanodegree
+##### Program: Udacity Data Foundations Nanodegree+
+
+
 
 [//]: # (Image References)
 
@@ -28,6 +30,7 @@ This visualization shows a comparison of airlines with delays, given in thousand
 
 A ```Shape Chart``` is used to show data with minimal chart junk. A general negative slope can be seen as a trend.
 
+###### Tableau: https://public.tableau.com/views/AirlineDelaysCancellationsandTrends/Sheet1?:embed=y&:display_count=yes
 
 ## What is the frequency of cancellations by type?
 ![alt text][image2]
@@ -35,6 +38,9 @@ A ```Shape Chart``` is used to show data with minimal chart junk. A general nega
 This visualization shows the occurrences of cancellations due to reasons (A, B, C) relative to the day given the week, time of month, and month. It can be seen that the primary cause of cancellations is "B" which accounts for more than half. While the ```Excel Sheet``` does not explicitly state what reason "B" is, looking at the month of February implies it is related to weather conditions since this is the dead of winter.
 
 The ```Area Chart``` was utilized as it can draw the attention of the user to the magnitude of the dilemma, without being distracting or misleading.
+
+###### Tableau:
+https://public.tableau.com/views/AirlineDelaysCancellationsandTrends/Sheet2?:embed=y&:display_count=yes
 ___
 
 ## How does flight distance and time impact delays and cancellations?
@@ -42,6 +48,8 @@ ___
 
 Now, we can see something interesting and insightful. While this graph still shows that Southwest (WN) still has the worst delays and cancellations, we can see that these issues are proportional to the total distance of the trip and the length of the flight time. This is relatively true for all airlines as well, except for American Eagle (MQ) that has a high amount of cancellations with respect to their flight times and distances. Since this dataset is from 2015, there might have been an incident that caused a massive amount of cancellations that skew the results.
 
+###### Tableau:
+https://public.tableau.com/profile/christopher.ohara#!/vizhome/AirlineDelaysCancellationsandTrends/Sheet3
 
 A ```Bar Chart``` was used as it clearly shows the relationship between each airline and multiple measures of data while avoiding chart junk.
 
@@ -54,4 +62,4 @@ In all fairness, dilemmas surrounding airlines, airports and air traffic control
 
 However, this data could be analyzed against multiple years and could result in improvements. If the airline or airport knows that there will be these sorts of dilemmas, they could notify users in advance or offer some form of compensation. This is under the premise that these conditions are unavoidable (weather is relative to location and season), and the best course of action would be a social resolution.
 
-Recently, airlines have experienced disruptions due to entrepreneurial innovation and business models. An American example is "Spirit Airlines," and while they offer very low quality flights (no carry on, no free drinks) they offer cheap alternatives to fly which targets an audience of college students, travelers, backpackers and short "get-aways." This is addressed in this report, since aspects of social media and user experience are disrupting the stocks and value chain for large companies that cannot adapt. Once a companies image is tarnished, it is very difficult to recover. Therefore, dashboards such as these can give some direction to potentially mitigating or creating business plans to improve the companies profits. 
+Recently, airlines have experienced disruptions due to entrepreneurial innovation and business models. An American example is "Spirit Airlines," and while they offer very low quality flights (no carry on, no free drinks) they offer cheap alternatives to fly which targets an audience of college students, travelers, backpackers and short "get-aways." This is addressed in this report, since aspects of social media and user experience are disrupting the stocks and value chain for large companies that cannot adapt. Once a companies image is tarnished, it is very difficult to recover. Therefore, dashboards such as these can give some direction to potentially mitigating or creating business plans to improve the companies profits.
