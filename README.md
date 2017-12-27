@@ -9,9 +9,11 @@ ___
 
 [//]: # (Image References)
 
-[image1]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/006.png?raw=true?raw=true
+[image1]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/008.png?raw=true?raw=true
 [image2]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/002.png?raw=true?raw=true
-[image3]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/003.png?raw=true?raw=true
+[image3]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/009.png?raw=true?raw=true
+[image4]: https://github.com/Ohara124c41/DFND-Flight-Delays-and-Cancellations/blob/master/images/007.png?raw=true?raw=true
+
 
 ## Introduction
 
@@ -28,9 +30,9 @@ The goal of the dashboards are to visualize which airlines have the *most delays
 
 This visualization shows a comparison of airlines with delays, given in thousands of minutes. This shows that Southwest Airlines (WN) has the most delays of any kind, nearly double of any competitor. While arrival delays are different than departure delays, they are related, especially when considering connecting flights.  
 
-A ```Shape Chart``` is used to show data with minimal chart junk. A general negative slope can be seen as a trend.
+A ```Bar Chart``` is used to show data with minimal chart junk. A general negative slope can be seen as a trend.
 
-###### Tableau: https://public.tableau.com/views/AirlineDelaysCancellationsandTrends/Sheet1?:embed=y&:display_count=yes
+###### Tableau: https://public.tableau.com/views/Flights_37/Sheet1?:embed=y&:display_count=yes&publish=yes
 
 ## What is the frequency of cancellations by type?
 ![alt text][image2]
@@ -51,7 +53,17 @@ Now, we can see something interesting and insightful. While this graph still sho
 ###### Tableau:
 https://public.tableau.com/profile/christopher.ohara#!/vizhome/AirlineDelaysCancellationsandTrends/Sheet3
 
-A ```Bar Chart``` was used as it clearly shows the relationship between each airline and multiple measures of data while avoiding chart junk.
+A ```Scatter Chart``` was used as it clearly shows the relationship between each airline and multiple measures of data while avoiding chart junk.
+
+## Dash Board
+![alt text][image4]
+
+Finally, a rudimentary Dash Board is added to show relationships between each research question and the similiarities between their results.
+
+###### Tableau:
+https://public.tableau.com/views/AirlineDelaysCancellationsandTrendsmkII/Dashboard1?:embed=y&:display_count=yes&publish=yes
+
+
 
 ## Discussion & Future Improvements
 ___
